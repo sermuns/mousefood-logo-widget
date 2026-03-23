@@ -1,0 +1,8 @@
+[package]
+name = "simple"
+edition = "2024"
+publish = false
+
+[dependencies]
+ratatui = "0.30"
+mousefood-logo-widget.path = "../.."

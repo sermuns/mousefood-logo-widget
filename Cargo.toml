@@ -1,0 +1,11 @@
+
+
+[package]
+name = "mousefood-logo-widget"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ratatui-core = "0.1"
+indoc = "2"
+itertools = { version = "0.14", default-features = false }
