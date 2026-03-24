@@ -1,4 +1,5 @@
 //! A mousefod mascot widget
+#![no_std] // TODO: should this ALWAYS be here, even in `std` environments?
 
 use itertools::Itertools;
 use ratatui_core::buffer::Buffer;
