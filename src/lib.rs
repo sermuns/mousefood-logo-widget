@@ -1,6 +1,5 @@
 //! A mousefod mascot widget
-//!
-//! The mascot takes 32x16 cells and is rendered using half block characters.
+
 use itertools::Itertools;
 use ratatui_core::buffer::Buffer;
 use ratatui_core::layout::Rect;
