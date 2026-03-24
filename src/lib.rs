@@ -43,11 +43,11 @@ impl MouseFoodLogo {
 
     const fn color_for(&self, c: char) -> Option<Color> {
         match c {
-            LIGHT_TEXT => Some(Color::Gray),
-            DARK_TEXT => Some(Color::DarkGray),
-            LIGHT_CHEESE => Some(Color::LightYellow),
-            MIDDLE_CHEESE => Some(Color::Yellow),
-            DARK_CHEESE => Some(Color::Black),
+            LIGHT_TEXT => Some(Color::Rgb(139, 151, 182)),
+            DARK_TEXT => Some(Color::Rgb(53, 54, 88)),
+            LIGHT_CHEESE => Some(Color::Rgb(236, 233, 16)),
+            MIDDLE_CHEESE => Some(Color::Rgb(236, 171, 17)),
+            DARK_CHEESE => Some(Color::Rgb(239, 110, 16)),
             TERM => Some(Color::Indexed(232)),
             TERM_BORDER => Some(Color::Indexed(237)),
             TERM_CURSOR => Some(Color::Indexed(248)),
